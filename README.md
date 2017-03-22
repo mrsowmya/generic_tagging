@@ -10,7 +10,7 @@
 
 `curl -v -H "Content-Type: application/json" -X POST http://localhost:3000/tags -d '{"entity" : {"entity_type" : "Article", "identifier" : "2" , "tags" : ["Van", "Car"]} }'`
 
-###Sample Response
+### Sample Response
 ===============================================
 ```javascript
 HTTP/1.1 200 OK
@@ -28,7 +28,7 @@ HTTP/1.1 200 OK
 
 `curl -v -H "Content-Type: application/json" -X GET http://localhost:3000/tags/:entity_type/:entity_identifier`
 
-###Sample Response
+### Sample Response
 ===============================================
 ```javascript
 HTTP/1.1 200 OK
@@ -54,7 +54,7 @@ HTTP/1.1 200 OK
 
 `curl -v -H "Content-Type: application/json" -X DELETE http://localhost:3000/tags/:entity_type/:entity_identifier`
 
-###Sample Response
+### Sample Response
 ===============================================
 ```javascript
 HTTP/1.1 200 OK
@@ -73,7 +73,7 @@ HTTP/1.1 200 OK
 
 `curl -v -H "Content-Type: application/json" -X GET http://localhost:3000/stats`
 
-###Sample Response
+### Sample Response
 ===============================================
 ```javascript
 HTTP/1.1 200 OK
@@ -96,7 +96,7 @@ HTTP/1.1 200 OK
 
 `curl -v -H "Content-Type: application/json" -X GET http://localhost:3000/stats/:entity_type/:entity_identifier`
 
-###Sample Response
+### Sample Response
 ===============================================
 ```javascript
 HTTP/1.1 200 OK
